@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29123.89
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TDD.Tests", "NUnitTestProject1\TDD.Tests.csproj", "{060F0DBA-996D-4263-9AF6-38FE4C7E403C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TDD.Tests", "TDD.Tests\TDD.Tests.csproj", "{060F0DBA-996D-4263-9AF6-38FE4C7E403C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDD", "TDD\TDD.csproj", "{BE36C51C-258D-45C5-8E3C-8D901063D969}"
 EndProject
-Global
+Global0
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU

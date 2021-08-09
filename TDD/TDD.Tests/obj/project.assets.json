@@ -5343,11 +5343,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\JA\\tdd\\NUnitTestProject1\\NUnitTestProject1\\TDD.Tests.csproj",
+      "projectUniqueName": "E:\\JA\\tdd\\TDD\\TDD.Tests\\TDD.Tests.csproj",
       "projectName": "TDD.Tests",
-      "projectPath": "E:\\JA\\tdd\\NUnitTestProject1\\NUnitTestProject1\\TDD.Tests.csproj",
+      "projectPath": "E:\\JA\\tdd\\TDD\\TDD.Tests\\TDD.Tests.csproj",
       "packagesPath": "C:\\Users\\yura\\.nuget\\packages\\",
-      "outputPath": "E:\\JA\\tdd\\NUnitTestProject1\\NUnitTestProject1\\obj\\",
+      "outputPath": "E:\\JA\\tdd\\TDD\\TDD.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5366,8 +5366,8 @@
       "frameworks": {
         "netcoreapp3.0": {
           "projectReferences": {
-            "E:\\JA\\tdd\\NUnitTestProject1\\TDD\\TDD.csproj": {
-              "projectPath": "E:\\JA\\tdd\\NUnitTestProject1\\TDD\\TDD.csproj"
+            "E:\\JA\\tdd\\TDD\\TDD\\TDD.csproj": {
+              "projectPath": "E:\\JA\\tdd\\TDD\\TDD\\TDD.csproj"
             }
           }
         }

@@ -186,11 +186,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\JA\\tdd\\NUnitTestProject1\\TDD\\TDD.csproj",
+      "projectUniqueName": "E:\\JA\\tdd\\TDD\\TDD\\TDD.csproj",
       "projectName": "TDD",
-      "projectPath": "E:\\JA\\tdd\\NUnitTestProject1\\TDD\\TDD.csproj",
+      "projectPath": "E:\\JA\\tdd\\TDD\\TDD\\TDD.csproj",
       "packagesPath": "C:\\Users\\yura\\.nuget\\packages\\",
-      "outputPath": "E:\\JA\\tdd\\NUnitTestProject1\\TDD\\obj\\",
+      "outputPath": "E:\\JA\\tdd\\TDD\\TDD\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

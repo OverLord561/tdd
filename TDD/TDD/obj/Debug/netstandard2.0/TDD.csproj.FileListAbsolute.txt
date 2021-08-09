@@ -1,0 +1,9 @@
+E:\JA\tdd\NUnitTestProject1\TDD\bin\Debug\netstandard2.0\TDD.deps.json
+E:\JA\tdd\NUnitTestProject1\TDD\bin\Debug\netstandard2.0\TDD.dll
+E:\JA\tdd\NUnitTestProject1\TDD\bin\Debug\netstandard2.0\TDD.pdb
+E:\JA\tdd\NUnitTestProject1\TDD\obj\Debug\netstandard2.0\TDD.csprojAssemblyReference.cache
+E:\JA\tdd\NUnitTestProject1\TDD\obj\Debug\netstandard2.0\TDD.csproj.CoreCompileInputs.cache
+E:\JA\tdd\NUnitTestProject1\TDD\obj\Debug\netstandard2.0\TDD.AssemblyInfoInputs.cache
+E:\JA\tdd\NUnitTestProject1\TDD\obj\Debug\netstandard2.0\TDD.AssemblyInfo.cs
+E:\JA\tdd\NUnitTestProject1\TDD\obj\Debug\netstandard2.0\TDD.dll
+E:\JA\tdd\NUnitTestProject1\TDD\obj\Debug\netstandard2.0\TDD.pdb

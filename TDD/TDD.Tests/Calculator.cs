@@ -25,7 +25,7 @@ namespace Tests
 
         public void Task4(string input, int expectedResult)
         {
-            int actualResult = Calculator.Task1(input);
+            int actualResult = Calculator.Add(input);
 
             Assert.AreEqual(actualResult, expectedResult);
         }
@@ -37,9 +37,84 @@ namespace Tests
 
         public void Task5(string input, string expectedResult)
         {
-            Exception ex = Assert.Throws<Exception>(() => Calculator.Task1(input));
+            Exception ex = Assert.Throws<Exception>(() => Calculator.Add(input));
 
             Assert.AreEqual(expectedResult, ex.Message);
         }
+
+     
+        //public void Task7(string input, int expectedResult)
+        //{
+        //    string giveninput = null;
+
+        //    Calculator.AddOccured += delegate (string input,
+
+        //        int result)
+        //    {
+        //        giveninput = input;
+        //        Console.WriteLine(result);
+        //    };
+
+        //    Calculator.Add(input);
+            
+
+        //    int actualResult = Calculator.GetCalledCount();
+
+        //    Assert.AreEqual(actualResult, expectedResult);
+        //}
+
+        [TestCase("1,2,1001", 3)]
+        [TestCase("1,2,1000", 1003)]
+        [TestCase("1,2,999", 1002)]
+
+        public void Task9(string input, int expectedResult)
+        {
+           
+            int actualResult = Calculator.Add(input);
+
+            Assert.AreEqual(actualResult, expectedResult);
+        }
+
+
+        [TestCase("//[***]\n1***2***3", 6)]
+        [TestCase("//[-]\n1-2-3", 6)]
+
+        public void Task10(string input, int expectedResult)
+        {
+
+            int actualResult = Calculator.Add(input);
+
+            Assert.AreEqual(actualResult, expectedResult);
+        }
+
+
+
+        [TestCase("//[***]\n1***2***3", 6)]
+        [TestCase("//[*][%]\n1*2%3", 6)]
+        [TestCase("//[%][%]\n1%2%3", 6)]
+        [TestCase("//[)][-]\n1-2)3", 6)]
+        public void Task11(string input, int expectedResult)
+        {
+
+            int actualResult = Calculator.Add(input);
+
+            Assert.AreEqual(actualResult, expectedResult);
+        }
+
+        [TestCase("//[**][%%]\n1**2%%3", 6)]
+        public void Task12(string input, int expectedResult)
+        {
+
+            int actualResult = Calculator.Add(input);
+
+            Assert.AreEqual(actualResult, expectedResult);
+        }
+
+        //”
+
+
+        ////[***]\n1***2***3
+
+        //GetCalledCount
     }
 }

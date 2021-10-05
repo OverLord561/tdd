@@ -10,14 +10,11 @@
         "projectUniqueName": "E:\\JA\\tdd\\TDD\\TDD\\TDD.csproj",
         "projectName": "TDD",
         "projectPath": "E:\\JA\\tdd\\TDD\\TDD\\TDD.csproj",
-        "packagesPath": "C:\\Users\\yura\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\yur_gens\\.nuget\\packages\\",
         "outputPath": "E:\\JA\\tdd\\TDD\\TDD\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\yura\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\yur_gens\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -29,6 +26,7 @@
         },
         "frameworks": {
           "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
             "projectReferences": {}
           }
         },
@@ -40,6 +38,7 @@
       },
       "frameworks": {
         "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
           "dependencies": {
             "NETStandard.Library": {
               "suppressParent": "All",
@@ -57,7 +56,8 @@
             "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,2 +1,26 @@
+#Ignore files build by Visual Studio
+*.obj
+*.bin
+*.user
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+*.sbr
+*.suo
+*.user
+.suo
+applicationhost.config
 bin
 obj
+bin
+.vs/
